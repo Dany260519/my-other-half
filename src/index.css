@@ -1,69 +1,13 @@
-@import url('https://fonts.googleapis.com/css2?family=Carter+One&display=swap');
-
 body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-image: url('https://fondosmil.com/fondo/33109.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 
-#first {
-  float: left;
-  margin: 100px;
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
 }
-
-#second {
-  float: right;
-  margin: 100px;
-}
-
-#submit {
-  height: 35px;
-  width: 100px;
-  border: inset 2px rgba(245, 245, 245, 0.56);
-  border-radius: 30px;
-  background: rgba(255, 146, 190, 0.497);
-  box-shadow: 4px 6px 4px 1px rgba(118, 118, 118, 0.482);
-  color: rgba(0, 0, 0, 0.624);
-  font-size: larger;
-  font-family: 'Carter One', cursive;
-  text-shadow: 2px 0px 3px rgba(255, 255, 255, 0.714);
-  cursor: pointer;
-
-  transition: all 0.3s;
-}
-
-#submit:hover {
-  transform: translateY(10px);
-  background: rgba(255, 91, 157, 0.497);
-  color: aliceblue;
-}
-
-@keyframes slideInTop {
-
-  from {
-    transform: translateY(300px);
-  }
-
-  to {
-    transform: translateY(0);
-  }
-}
-
-
-#love {
-  background-image: url('https://cdn.pixabay.com/photo/2016/10/29/21/13/vintage-1781615_1280.png');
-  background-size: 200px;
-  background-repeat: no-repeat;
-  background-position: top;
-  text-align: center;
-  height: 65px;
-  padding: 60px 50px;
-  margin: 70px 10px;
-
-
-  animation: slideInTop  1s ease-in;
-}
-
-
