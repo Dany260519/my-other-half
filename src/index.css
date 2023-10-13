@@ -31,7 +31,7 @@ body {
   text-shadow: 2px 0px 3px rgba(255, 255, 255, 0.714);
   cursor: pointer;
 
-  transition: all 0.3s;
+  transition: all 0.5s;
 }
 
 #submit:hover {
